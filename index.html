@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowerShop</title>
+</head>
+
+<!-- css file -->
+<link rel="stylesheet" href="style.css">
+
+ <!-- font awesome icon -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <nav>
+        <div class="nav-responsive">
+            <img src="C:\Users\OWNER\Desktop\Webpage\images/Logo.jpg" alt="image" class="logo" id="logo">
+            <div class="nav-search">
+                <a href="">
+                    <i class="fa fa-search" id="find">
+                    </i>
+                </a>
+                <input type="text" id="search" placeholder="Search your items, brands">
+            </div>
+            <div class="icons">
+                <div id="cart-btn" class="fa fa-shopping-cart"></div>
+                <div id="login-btn" class="fa fa-user"></div>
+            </div>
+
+            <form action="" class="login-form">
+                <h3>login form</h3>
+                <input type="email" placeholder="enter your email" class="box">
+                <input type="password" placeholder="enter your password" class="box">
+                <div class="remember">
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me">remember me</label>
+                </div>
+                <input type="submit" value="login now" class="btn">
+                <p>forget password? <a href="#">click here</a></p>
+                <p>dont have an account? <a href="#">create one</a></p>
+            </form>
+        </div>      
+    </nav>
+
+<!-- Hero -->
+    <img src="./images/homes.jpg" alt="" class="hero-img" />
+   
+    <div class="hero-content">
+      
+      <h2><span class="discount">Fresh </span>Flower</h2>
+      <h1>
+        <span>NaturalBeauty</span>
+      </h1>
+    </div>
+  </header>
+
+<!-- main section -->
+<main id="main" >
+    <!-- categories section -->
+    <section id="categories">
+        <div class="brand">
+            <div class="img-container">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Souls.jpg" alt="img" class="brand-img">
+            </div>
+            <h4 id="brand-name">Funeral Flower</h4>
+        </div>
+        <div class="brand">
+            <div class="img-container">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Gift.jpg" alt="img" class="brand-img">
+            </div>
+            <h4 id="brand-name">Gift Flower</h4>
+        </div>
+        <div class="brand">
+            <div class="img-container">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Wedding1.jpg" alt="img" class="brand-img">
+            </div>
+            <h4 id="brand-name">Wedding Flower</h4>
+        </div>
+        <div class="brand">
+            <div class="img-container">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/vase4.jpg" alt="img" class="brand-img">
+            </div>
+            <h4 id="brand-name">Flower Vase</h4>
+        </div>
+        <div class="brand">
+            <div class="img-container">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/headband.jpg" alt="img" class="brand-img">
+            </div>
+            <h4 id="brand-name">Headband Flower</h4>
+        </div>
+        <div class="brand">
+            <div class="img-container">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/christmas.jpg" alt="img" class="brand-img">
+            </div>
+            <h4 id="brand-name">Christmas Flower</h4>
+        </div>
+    </section>
+<!-- end of categories section -->
+
+<!-- all categories -->
+<section class="categories">
+    <div class="title-container">
+        <h1 id="title">Top Selling</h1>
+        <button type="button" id="item-btn">View All</button>
+    </div>
+    <div class="card">
+        <div class="item-container" id="0">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Gift2.jpg" alt="img" id="card-img">
+                <p id="item-name">Fushia Pink Flower Boquet</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 1050</h3>               
+        </div>
+
+        <div class="item-container" id="1">
+            <div class="card-item" >
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Product7.jpg" alt="img" id="card-img">
+                <p id="item-name">Mini Flower Boque</p>              
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 400</h3>
+        </div>
+
+        <div class="item-container" id="2">
+            <div class="card-item" >
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/weddingProd4.jpg" alt="img" id="card-img">
+                <p id="item-name">Bride White Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 1000</h3>                
+        </div>
+
+        <div class="item-container" id="3">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Souls4.jpg" alt="img" id="card-img">
+                <p id="item-name">Mini Funeral Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 650</h3>            
+        </div>
+    </div>
+</section>
+
+<!-- Gift Flower -->
+<section class="categories">
+    <div class="title-container">
+        <h1 id="title">Gift Flowers</h1>
+        <button type="button" id="item-btn">View All</button>
+    </div>
+    <div class="card">
+
+        <div class="item-container" id="4">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Gift1.jpg" alt="img" id="card-img">
+                <p id="item-name">Goldy Boquet Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 1500</h3>            
+        </div>
+
+        <div class="item-container"  id="5">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Product1.jpg" alt="img" id="card-img">
+                <p id="item-name">Peach Cutie Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 970</h3>            
+        </div>
+
+        <div class="item-container"  id="6">
+
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Product3.jpg" alt="img" id="card-img">
+                <p id="item-name">Bloom Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 1050</h3>            
+        </div>
+
+        <div class="item-container" id="7">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Product6.jpg" alt="img" id="card-img">
+                <p id="item-name">Special Boquet Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 1000</h3>            
+        </div>
+    </div>
+</section>
+<!-- end of Gift Flowers -->
+
+<!-- Wedding Flower -->
+<section class="categories">
+    <div class="title-container">
+        <h1 id="title">Wedding Flowers</h1>
+        <button type="button" id="item-btn">View All</button>
+    </div>
+    <div class="card">
+
+        <div class="item-container" id="8">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Wedding2.jpg" alt="img" id="card-img">
+                <p id="item-name">Desire  Wedding Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 880</h3>            
+        </div>
+
+        <div class="item-container" id="9">
+
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Wedding.jpg" alt="img" id="card-img">
+                <p id="item-name">Bridal Cute Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 550</h3>            
+        </div>
+
+        <div class="item-container" id="10">
+
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Wedding1.jpg" alt="img" id="card-img">
+                <p id="item-name">Elegant Wedding Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 330</h3>            
+        </div>
+
+        <div class="item-container" id="11">
+
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/Wedding3.jpg" alt="img" id="card-img">
+                <p id="item-name">Beautiful Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 350</h3>            
+        </div>
+    </div>
+</section>
+<!-- end of wedding flower -->
+
+<!-- Christmas Flower -->
+<section class="categories">
+    <div class="title-container">
+        <h1 id="title">Christmas Flower</h1>
+        <button type="button" id="item-btn">View All</button>
+    </div>
+    <div class="card">
+
+        <div class="item-container" id="12">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/christmas1.jpg" alt="img" id="card-img">
+                <p id="item-name">Nicey Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 880</h3>            
+        </div>
+
+        <div class="item-container" id="13">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/christmas2.jpg" alt="img" id="card-img">
+                <p id="item-name">Christ Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 930</h3>            
+        </div>
+
+        <div class="item-container" id="14">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/christmas5.jpg" alt="img" id="card-img">
+                <p id="item-name">Massy Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 1290</h3>            
+        </div>
+
+        <div class="item-container" id="15">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/christmas4.jpg" alt="img" id="card-img">
+                <p id="item-name">Best Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 975</h3>            
+        </div>
+    </div>
+</section>
+<!-- end of flower Christmas -->
+
+
+<!-- Headband Flower -->
+<section class="categories">
+    <div class="title-container">
+        <h1 id="title">Headband Flowers</h1>
+        <button type="button" id="item-btn">View All</button>
+    </div>
+    <div class="card">
+
+        <div class="item-container" id="12">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/headband1.jpg" alt="img" id="card-img">
+                <p id="item-name">Mini Headband</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 280</h3>            
+        </div>
+
+        <div class="item-container" id="13">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/headband2.jpg" alt="img" id="card-img">
+                <p id="item-name">Daebak Headband</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 190</h3>            
+        </div>
+
+        <div class="item-container" id="14">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/headband3.jpg" alt="img" id="card-img">
+                <p id="item-name">Mini Awesome Headband</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 300</h3>            
+        </div>
+
+        <div class="item-container" id="15">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/headband4.jpg" alt="img" id="card-img">
+                <p id="item-name">Fantastic Headband</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 275</h3>            
+        </div>
+    </div>
+</section>
+<!-- end of flower Headband -->
+
+<!-- vase Flower -->
+<section class="categories">
+    <div class="title-container">
+        <h1 id="title">Flowers Vase</h1>
+        <button type="button" id="item-btn">View All</button>
+    </div>
+    <div class="card">
+
+        <div class="item-container" id="12">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/vase1.jpg" alt="img" id="card-img">
+                <p id="item-name">Summer Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 580</h3>            
+        </div>
+
+        <div class="item-container" id="13">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/vase2.jpg" alt="img" id="card-img">
+                <p id="item-name">Sweet Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 890</h3>            
+        </div>
+
+        <div class="item-container" id="14">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/vase5.jpg" alt="img" id="card-img">
+                <p id="item-name">Rosey Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 900</h3>            
+        </div>
+
+        <div class="item-container" id="15">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/vase4.jpg" alt="img" id="card-img">
+                <p id="item-name">happy Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 875</h3>            
+        </div>
+    </div>
+</section>
+<!-- end of flower Vase -->
+
+<!-- Funeral Flowers -->
+<section class="categories">
+    <div class="title-container">
+        <h1 id="title">Funeral Flowers</h1>
+        <button type="button" id="item-btn">View All</button>
+    </div>
+    <div class="card">
+
+        <div class="item-container" id="16">
+
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/funeral1.jpg" alt="img" id="card-img">
+                <p id="item-name">Circle Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 1210</h3>            
+        </div>
+
+        <div class="item-container" id="17">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/funeral2.jpg" alt="img" id="card-img">
+                <p id="item-name">Bird Style Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 2400</h3>            
+        </div>
+
+        <div class="item-container" id="18">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/funeral3.jpg" alt="img" id="card-img">
+                <p id="item-name">EleRed Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 990</h3>            
+        </div>
+
+        <div class="item-container" id="19">
+            <div class="card-item">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/funeral4.jpg" alt="img" id="card-img">
+                <p id="item-name">Cruzy Flower</p>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : $ 1450</h3>            
+        </div>
+    </div>
+</section>
+<!-- end of funeral flowers -->
+
+<!-- Footer section -->
+    <footer>
+        <p id="footer-title">Our Shop team</h3p>
+        <div class="footer">
+            <div class="support">
+                <ul>
+                    <h3>Know About Us</h3>
+                    <li><a href="#" id="terms">Term & Conditios</a></li>
+                    <li><a href="#" id="privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="social-media">
+
+                <ul>
+                    <h3>Contact Us</h3>
+                    <li><i class="fa fa-facebook"></i><a href="#" id="facebook">Facebook</a></li>
+                    <li><i class="fa fa-twitter"></i><a href="#" id="twitter">Twitter</a></li>
+                    <li><i class="fa fa-instagram"></i><a href="#" id="facebook">Instagram</a></li>
+                </ul>
+            </div>
+
+            <div class="address">
+                <h3>Shop Address</h3>
+                <p>Phone No : 09352435467</p>
+            </div>
+        </div>
+    </footer>
+<!-- end of footer section -->
+
+</main>
+<!-- end of main -->
+
+
+<!-- details page section -->
+<div id="details-page">
+    <div class="details">
+        <div class="items-detail">
+            <div class="image-container">
+                <img src="C:\Users\OWNER\Desktop\Webpage\images/christmas5.jpg" alt="" id="details-img">
+            </div>
+            <div class="details-card">
+                <h2 id="detail-title">Massy Flower</h2>
+                <h4 id="detail-price">Price : 1290</h4>
+                <p id="you-save">You save : 50</p>
+                <p id="delievery"><strong>Delivery : </strong> In 3 - 4 days</p>
+                <p id="spec"><strong>Specification :</strong>
+
+                    <ul>
+                        <li>Fresh and Natural Beauty Flowers</li>
+                    </ul>
+                </p>
+                <button id="carts">Add to Cart</button>
+                <button id="buy">Back</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of page detail -->
+
+
+<!-- cart list section -->
+<div id="cart-container">
+    <p id="cart-title">Your <strong>Cart</strong></p id="cart-title">
+    <div id="empty-cart">
+        <h1>Your Cart is Empty...</h1>
+    </div>
+
+    <div id="cart-with-items">
+        <div class="cart-column">
+            <h3>Product</h3>
+            <h3>Product Name</h3>
+            <h3>Total </h3>
+            <h3>Quantity</h3>
+            <h3>Remove</h3>
+        </div>
+        <div id="item-body">
+        </div>
+        <div id="total">
+            <h3 id="total-items"></h3>
+            <h2 id="total-amount"></h2>
+            <h3 id="you-saved"></h3>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
